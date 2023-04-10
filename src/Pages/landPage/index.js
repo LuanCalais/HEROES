@@ -1,5 +1,13 @@
+import "./LandPage.css";
+
 const LandPage = () => {
-  return <h1>LandPage Works</h1>;
+  return (
+    <>
+        <div>Oi</div>
+        <div>Tchau</div>
+    
+    </>
+  );
 };
 
 export default LandPage;
