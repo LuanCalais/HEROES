@@ -12,4 +12,49 @@
   background-image: url("./img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+.container section .start-now-box,
+.container section img,
+.container section h1 {
+  position: absolute;
+}
+
+.container section h1 {
+  text-transform: uppercase;
+  color: #aeaeae;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 107%;
+  letter-spacing: 0.16em;
+  bottom: 100px;
+  left: 12px;
+}
+
+.container section img {
+  right: 0;
+  width: 166px;
+  bottom: 80px;
+}
+
+.container section .start-now-box {
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  padding: 12px 4px;
+}
+
+.container section .start-now-box .start-now-button {
+  width: 100%;
+  height: 65px;
+  background: linear-gradient(76.58deg, #543240 55.4%, #aeaeae 243.01%);
+  border-radius: 160px;
+  color: #AEAEAE;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.12em;
 }
