@@ -3,13 +3,12 @@
   display: flex;
   justify-content: end;
   padding-right: 12px;
-  position: relative;
   height: auto;
   padding-top: 16px;
 }
 
 .nav-menu button {
-  min-width: 158px;
+  width: 158px;
   height: 43px;
   font-family: "League Spartan";
   color: #aeaeae;
@@ -19,7 +18,7 @@
   border-radius: 160px;
   background: linear-gradient(76.58deg, #543240 55.4%, #aeaeae 243.01%);
   transition: 0.6s;
-  position: absolute;
+  position: fixed;
 }
 
 .nav-menu button:hover {
