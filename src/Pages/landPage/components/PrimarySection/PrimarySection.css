@@ -1,0 +1,6 @@
+.section-one-container{
+    height: 100vh;
+    max-height: 458px;
+    background-image: url('./background_section_one.png');
+    background-repeat: no-repeat;
+}

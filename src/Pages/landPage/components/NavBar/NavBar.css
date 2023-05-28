@@ -1,7 +1,7 @@
 .nav-menu {
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding-right: 12px;
   height: auto;
   padding-top: 16px;

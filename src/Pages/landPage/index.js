@@ -1,13 +1,13 @@
 import "./LandPage.css";
 import arrow from "./img/arrow.svg";
-import rocket from "./img/carbon_rocket.svg";
 import NavBar from "./components/NavBar";
+import PrimarySection from "./components/PrimarySection";
 
 const LandPage = () => {
   return (
     <>
       <div className="container">
-        <section>
+        <section className="header">
           <NavBar />
 
           <h1>Marvel con</h1>
@@ -15,10 +15,11 @@ const LandPage = () => {
           <div className="start-now-box">
             <button className="btn start-now-button" id="start-now-button">
               Comece agora
-              {/* <img src={rocket} alt="carbon-rocket" /> */}
             </button>
           </div>
         </section>
+
+        <PrimarySection />
       </div>
     </>
   );
