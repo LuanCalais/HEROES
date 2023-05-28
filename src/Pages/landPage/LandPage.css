@@ -6,7 +6,7 @@
   max-width: inherit;
 }
 
-.container section {
+.container .header {
   height: 100vh;
   width: 100%;
   background-image: url("./img/background.png");
@@ -15,13 +15,13 @@
   position: relative;
 }
 
-.container section .start-now-box,
-.container section img,
-.container section h1 {
+.container .header .start-now-box,
+.container .header img,
+.container .header h1 {
   position: absolute;
 }
 
-.container section h1 {
+.container .header h1 {
   text-transform: uppercase;
   color: #aeaeae;
   font-weight: 900;
@@ -32,13 +32,13 @@
   left: 12px;
 }
 
-.container section img {
+.container .header img {
   right: 0;
   width: 166px;
   bottom: 80px;
 }
 
-.container section .start-now-box {
+.container .header .start-now-box {
   width: 100%;
   bottom: 0;
   display: flex;
@@ -46,12 +46,12 @@
   padding: 12px 4px;
 }
 
-.container section .start-now-box .start-now-button {
+.container .header .start-now-box .start-now-button {
   width: 100%;
   height: 65px;
   background: linear-gradient(76.58deg, #543240 55.4%, #aeaeae 243.01%);
   border-radius: 160px;
-  color: #AEAEAE;
+  color: #aeaeae;
   text-transform: uppercase;
   display: flex;
   align-items: center;
